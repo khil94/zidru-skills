@@ -1,0 +1,1 @@
+powershell -NoProfile -ExecutionPolicy Bypass -File C:/Users/OMS/.agents/link-skills.ps1

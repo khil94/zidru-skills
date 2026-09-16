@@ -1,0 +1,3 @@
+interface:
+  display_name: "committer"
+  short_description: "Auto commit unstaged/untracked files"
