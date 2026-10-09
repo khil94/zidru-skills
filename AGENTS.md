@@ -71,6 +71,15 @@ Avoid unrelated:
 
 Adjacent problems may be reported without being modified.
 
+## Evidence and Inference
+
+Always make clear which statements rest on evidence and which are your own inference.
+
+* A statement is evidence-backed only if it rests on something checkable: code, specs or API documentation, tool output, or an explicit user decision. Cite the source when practical.
+* Anything else must be explicitly labeled as inference ("추론" in Korean replies). This includes your own reasoning, assumptions, design choices, and conclusions extrapolated from a single fact.
+* This applies everywhere: answers, plans, reports, code comments, commit messages, and PR descriptions.
+* Never present inference as fact or as a requirement of a spec. When a plan item is your inference, label it before asking for approval.
+
 ## Verification
 
 Verification is part of implementation.

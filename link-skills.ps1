@@ -3,10 +3,12 @@
 
 $ErrorActionPreference = 'Stop'
 
-$source = Join-Path $env:USERPROFILE '.agents\skills'
+$source = @(
+    (Join-Path $env:USERPROFILE '.agents\skills')
 $targets = @(
     (Join-Path $env:USERPROFILE '.claude\skills'),
     (Join-Path $env:USERPROFILE '.codex\skills')
+    (Join-Path $env:USERPROFILE '.opencode\skills')
 )
 
 $skills = Get-ChildItem -LiteralPath $source -Directory |
