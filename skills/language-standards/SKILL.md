@@ -44,7 +44,7 @@ If several supported languages are materially involved, load each applicable ref
 
 ## Available References
 
-* Typescript: `references/typescript.md`
+* Typescript: `references/typescript/README.md`
 
 References for additional languages may be added over time.
 
